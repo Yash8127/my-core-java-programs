@@ -17,6 +17,11 @@ public class TestDeom1 {
 		String y = "va"; // SCP
 		String z = x + "va";
 		System.out.println(x == z); // true
+		System.out.println("**********************");
+		String A ="Hello";
+		String B="Java";
+		System.out.println(A.compareTo(B));
+		
 
 	}
 
