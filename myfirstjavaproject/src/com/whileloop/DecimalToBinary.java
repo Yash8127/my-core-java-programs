@@ -13,11 +13,7 @@ public class DecimalToBinary {
 			n /= 2;// 25/2->12, 12/2->6, 3/2->1 , 1/2->0
 			revb = r + revb;
 		}
-//		for (int i = 0; i < revb.length(); i++) {
-//			char bits = revb.charAt(i);
-//
-//			System.out.print(bits + " ");
-//		}
+
 		System.out.println("Binary number of " + original + " is: " + revb);
 	}
 
