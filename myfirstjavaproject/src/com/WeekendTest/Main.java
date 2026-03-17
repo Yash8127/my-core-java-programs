@@ -28,7 +28,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] digits1 = {9, 8, 9};
+        int[] digits1 = {9, 8, 8};
         int[] digits2 = {9, 9, 9};
 
         System.out.println("Input  : " + Arrays.toString(digits1));

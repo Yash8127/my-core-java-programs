@@ -4,7 +4,7 @@ public class AddletterFrequency {
 
 	public static void main(String[] args) {
 		System.out.println("main method started");
-		String str = "aaabbb";
+		String str = "aabbbc";
 		String result = "";
 		int count = 1;
 		for (int i = 0; i < str.length() - 1; i++) {
