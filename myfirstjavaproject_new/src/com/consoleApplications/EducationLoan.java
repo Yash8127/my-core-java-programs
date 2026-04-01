@@ -1,0 +1,16 @@
+package com.consoleApplications;
+
+class EducationLoan extends Loan {
+
+    @Override
+    void calculateInterest() {
+        interestRate = 6.5;
+        double interest = (principal * interestRate * tenure) / 100;
+
+        System.out.println("\n--- Education Loan Details ---");
+        System.out.println("Interest Rate: " + interestRate + "%");
+        System.out.println("Total Interest: ₹" + interest);
+        System.out.println("Total Amount Payable: ₹" + (principal + interest));
+    }
+}
+
