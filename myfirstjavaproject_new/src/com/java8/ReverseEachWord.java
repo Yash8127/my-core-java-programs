@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 public class ReverseEachWord {
 	public static void main(String[] args) {
 
-		String str = "Java Spring Boot";
+		String str = "Java Spring Booost";
 
 		String result = Arrays.stream(str.split(" "))
 				.map(word -> new StringBuilder(word).reverse().toString())
